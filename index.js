@@ -46,7 +46,7 @@ function currentLine(line) {
   // var place = line.indexOf()
 
 
-  var counter
+  var counter ="The line is currently: ";
   for ( place = 0; place < i ; place++) {
     var name = line[place]
     console.log(place)
