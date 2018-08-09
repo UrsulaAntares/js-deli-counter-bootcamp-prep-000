@@ -50,12 +50,11 @@ function currentLine(line) {
   for (place = 0; place < i ; place++) {
     var name = line[place]
     console.log(place)
-    counter = counter + place + ". " + name;
+    counter = counter + place+1 + ". " + name;
     console.log(counter)
     return counter
     }
-
-    if (line.length==0) {
+    if (i==0) {
       console.log("The line is currently empty.")
       return "The line is currently empty."
   }
