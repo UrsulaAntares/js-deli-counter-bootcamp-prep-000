@@ -20,17 +20,17 @@ function nowServing(line) {
   var i = line.length;
   var firstPerson = line.shift();
   if (i==0) {
-    message = `There is nobody waiting to be served`
+    var message = `There is nobody waiting to be served`
     console.log(message)
     return message
   } else {
-    happyMessage = `The line is currently serving ${firstPerson}`
+    var happyMessage = `The line is currently serving ${firstPerson}`
     return happyMessage
   }
 //  return line[0]
   // console.log(line[0]);
   console.log(firstPerson);
-  return line
+  //return line
 }
 
 
