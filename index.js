@@ -39,6 +39,8 @@ nowServing(katzDeliLine)
 nowServing(katzDeliLine)
 nowServing(katzDeliLine)
 
+katzDeliLine = ["tom", "dick", "harry"]
+
 function currentLine(line) {
   var i = line.length;
   var o
