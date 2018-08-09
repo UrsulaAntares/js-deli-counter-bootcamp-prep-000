@@ -1,6 +1,6 @@
-var katzDeliLine = ["Early Bird"]
 function takeANumber(line, name) {
   // var line = new Array();
+  var line = []
   var i = line.length;
   var welcome = `Welcome, ${name}. You are number ${i+1} in line.`
   line.push(name)
