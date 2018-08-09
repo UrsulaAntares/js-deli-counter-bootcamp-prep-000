@@ -47,7 +47,8 @@ function currentLine(line) {
   // var counter = line.join(`, ` + line.indexOf(name) + ` `);
   var counter
   for ( o = 0; o > i ; o--) {
-    return counter + i + ". " + name;
+    counter = counter + i + ". " + name;
+    return counter
   }
   if (i>0) {
   var wholeMessage = `The line is currently: 1. ${counter}`;
