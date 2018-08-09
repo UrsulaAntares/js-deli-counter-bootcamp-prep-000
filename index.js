@@ -29,4 +29,8 @@ function nowServing(line) {
 
 }
 
+
+nowServing(katzDeliLine)
+nowServing(katzDeliLine)
+nowServing(katzDeliLine)
 nowServing(katzDeliLine)
