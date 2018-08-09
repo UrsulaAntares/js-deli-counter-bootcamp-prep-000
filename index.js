@@ -23,6 +23,7 @@ function nowServing(line) {
   line.shift
   if (i==0) {
     message = `There is nobody waiting to be served`
+    console.log(message)
     return message
   }
 
