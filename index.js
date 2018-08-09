@@ -24,7 +24,7 @@ function nowServing(line) {
     console.log(message)
     return message
   } else {
-    var happyMessage = `The line is currently serving ${firstPerson}`
+    var happyMessage = `Currently serving ${firstPerson}`
     return happyMessage
   }
 //  return line[0]
