@@ -1,6 +1,6 @@
 var katzDeliLine = ["Early Bird"]
 function takeANumber(line, name) {
-  var line = new Array();
+  // var line = new Array();
   line.push(name)
   console.log(line)
   return line
