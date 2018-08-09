@@ -47,10 +47,10 @@ function currentLine(line) {
   var place
 
   var counter ="The line is currently: ";
-  for (place = 0; place < i ; place++) {
+  for (place = 0; place < line.length ; place++) {
     var name = line[place]
     console.log(place)
-    counter +=  (place+1) + ". " + name;
+    counter += (place+1) + ". " + name;
     console.log(counter)
     return counter
     }
