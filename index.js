@@ -43,6 +43,7 @@ katzDeliLine = ["tom", "dick", "harry", "Fred"]
 
 function currentLine(line) {
   var i = line.length;
+  console.log(1)
   // var place = line.indexOf()
   var place
 
