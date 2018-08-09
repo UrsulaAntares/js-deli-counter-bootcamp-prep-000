@@ -48,6 +48,7 @@ function currentLine(line) {
   var counter
   for ( o = 0; o > i ; o++) {
     counter = counter + i + ". " + name;
+    console.log(counter)
     return counter
   }
   if (i>0) {
