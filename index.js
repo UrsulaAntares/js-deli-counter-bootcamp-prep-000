@@ -49,7 +49,7 @@ function currentLine(line) {
   // var counter = line.join(`, ` + line.indexOf(name) + ` `);
   var counter
   for ( place = 0; place < i ; place++) {
-    counter = counter + o + ". " + name;
+    counter = counter + place + ". " + name;
     console.log(counter)
     return counter
   }
