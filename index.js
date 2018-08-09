@@ -43,7 +43,7 @@ katzDeliLine = ["tom", "dick", "harry"]
 
 function currentLine(line) {
   var i = line.length;
-  var place = line.indexOf()
+  // var place = line.indexOf()
   var name = line[place]
 
   var counter
