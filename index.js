@@ -34,10 +34,10 @@ function nowServing(line) {
 }
 
 
-// nowServing(katzDeliLine)
-// nowServing(katzDeliLine)
-// nowServing(katzDeliLine)
-// nowServing(katzDeliLine)
+nowServing(katzDeliLine)
+nowServing(katzDeliLine)
+nowServing(katzDeliLine)
+nowServing(katzDeliLine)
 
 function currentLine(line) {
   var i = line.length;
@@ -58,5 +58,3 @@ function currentLine(line) {
   return "The line is currently empty."
 }
 }
-
-function currentLine(line)
