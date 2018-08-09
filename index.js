@@ -55,6 +55,7 @@ function currentLine(line) {
   }
   if (i>0) {
   var wholeMessage = `The line is currently: 1. ${counter}`;
+  console.log(wholeMessage)
   return wholeMessage
 } else {
   return "The line is currently empty."
