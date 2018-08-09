@@ -52,18 +52,21 @@ function currentLine(line) {
     console.log(place)
     counter = counter + place + ". " + name;
     console.log(counter)
+    if (i==0) {
+      return "The line is empty."
+    }
     return counter
   }
 
   // var counter = line.join(`, ` + line.indexOf(name) + ` `);
-  var counter = line.join(`, ` + line.indexOf(name) + ` `);
-  if (i>0) {
-  var wholeMessage = `The line is currently: 1. ${counter}`;
-  console.log(wholeMessage)
-  return wholeMessage
-} else {
-  return "The line is currently empty."
-}
+//   var counter = line.join(`, ` + line.indexOf(name) + ` `);
+//   if (i>0) {
+//   var wholeMessage = `The line is currently: 1. ${counter}`;
+//   // console.log(wholeMessage)
+//   // return wholeMessage
+// } else {
+//   return "The line is currently empty."
+// }
 }
 
 currentLine(katzDeliLine)
