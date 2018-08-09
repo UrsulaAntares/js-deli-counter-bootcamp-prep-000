@@ -22,6 +22,7 @@ function nowServing(line) {
   line.shift
   if (line[null]) {
     message = `There is nobody waiting to be served`
+    return message
   }
 
 }
