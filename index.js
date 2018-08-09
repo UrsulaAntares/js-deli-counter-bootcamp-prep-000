@@ -47,7 +47,9 @@ function currentLine(line) {
   var place
 
   var counter ="The line is currently: ";
-  while (place = 0; place < line.length ; place++) {
+  // for (place = 0; place < line.length ; place++) {
+  while (place < line.length)  {
+    place++
     // var name =
     console.log(place)
     counter += (place+1) + ". " + line[place];
