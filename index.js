@@ -49,6 +49,7 @@ function currentLine(line) {
   var counter
   for ( place = 0; place < i ; place++) {
     var name = line[place]
+    console.log(place)
     counter = counter + place + ". " + name;
     console.log(counter + "This must be the place")
     return counter
