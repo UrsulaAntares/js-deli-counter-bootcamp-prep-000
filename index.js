@@ -52,10 +52,12 @@ function currentLine(line) {
     console.log(place)
     counter = counter + place + ". " + name;
     console.log(counter)
-    if (i==0) {
-      return "The line is empty."
-    }
     return counter
+    }
+
+    if (line.length==0) {
+      console.log("The line is currently empty.")
+      return "The line is currently empty."
   }
 
   // var counter = line.join(`, ` + line.indexOf(name) + ` `);
