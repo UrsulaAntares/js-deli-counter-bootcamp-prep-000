@@ -26,9 +26,10 @@ function nowServing(line) {
     message = `There is nobody waiting to be served`
     console.log(message)
     return message
+  } else {
+    console.log(line)
   }
-  console.log(line)
-  return line
+    return line
 }
 
 
