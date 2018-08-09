@@ -44,15 +44,16 @@ katzDeliLine = ["tom", "dick", "harry"]
 function currentLine(line) {
   var i = line.length;
   var place = line.indexOf()
-  var name = line[i]
+  var name = line[place]
 
-  // var counter
-  // for ( place = 0; place < i ; place++) {
-  //   counter = counter + place + ". " + name;
-  //   console.log(counter)
-  //   return counter
-  // }
+  var counter
+  for ( place = 0; place < i ; place++) {
+    counter = counter + place + ". " + name;
+    console.log(counter + "This must be the place")
+    return counter
+  }
 
+  // var counter = line.join(`, ` + line.indexOf(name) + ` `);
   var counter = line.join(`, ` + line.indexOf(name) + ` `);
   if (i>0) {
   var wholeMessage = `The line is currently: 1. ${counter}`;
