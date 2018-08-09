@@ -39,7 +39,7 @@ nowServing(katzDeliLine)
 nowServing(katzDeliLine)
 nowServing(katzDeliLine)
 
-katzDeliLine = ["tom", "dick", "harry"]
+katzDeliLine = ["tom", "dick", "harry", "Fred"]
 
 function currentLine(line) {
   var i = line.length;
@@ -47,9 +47,9 @@ function currentLine(line) {
   var place
 
   var counter ="The line is currently: ";
-  // for (place = 0; place < line.length ; place++) {
-  while (place < line.length)  {
-    place++
+  for (place = 0; place < line.length ; place++) {
+  // while (place < line.length)  {
+  //   place++
     // var name =
     console.log(place)
     counter += (place+1) + ". " + line[place];
