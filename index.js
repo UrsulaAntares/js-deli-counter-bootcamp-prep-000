@@ -41,6 +41,7 @@ nowServing(katzDeliLine)
 
 function currentLine(line) {
   var i = line.length;
+  var o
   // var number = line.indexOf()
   var name = line[i]
   // var counter = line.join(`, ` + line.indexOf(name) + ` `);
