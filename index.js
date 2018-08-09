@@ -20,7 +20,7 @@ function nowServing(line) {
   var i = line.length;
 //  return line[0]
   console.log(line[0])
-  line.shift
+  line.unshift
   if (i==0) {
     message = `There is nobody waiting to be served`
     console.log(message)
