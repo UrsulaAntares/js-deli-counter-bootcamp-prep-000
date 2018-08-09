@@ -1,4 +1,4 @@
-// var katzDeliLine = ["Early Bird"]
+var katzDeliLine = ["Early Bird"]
 function takeANumber(line, name) {
   // var line = new Array();
   var i = line.length;
