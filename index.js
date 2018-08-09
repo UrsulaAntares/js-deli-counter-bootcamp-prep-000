@@ -25,6 +25,7 @@ function nowServing(line) {
     return message
   } else {
     happyMessage = `The line is currently serving ${firstPerson}`
+    return happyMessage
   }
 //  return line[0]
   // console.log(line[0]);
