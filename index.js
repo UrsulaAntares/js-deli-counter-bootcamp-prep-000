@@ -61,4 +61,4 @@ function currentLine(line) {
 }
 }
 
-currentLine(line)
+currentLine(katzDeliLine)
