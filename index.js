@@ -50,7 +50,7 @@ function currentLine(line) {
   for (place = 0; place < i ; place++) {
     var name = line[place]
     console.log(place)
-    counter = counter + (place+1) + ". " + name;
+    counter +=  (place+1) + ". " + name;
     console.log(counter)
     return counter
     }
