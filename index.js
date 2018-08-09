@@ -40,6 +40,6 @@ nowServing(katzDeliLine)
 nowServing(katzDeliLine)
 
 function currentLine(line) {
-  var i = line.length();
+  var i = line.length;
   return line.toString(`, ${i}: `)
 }
