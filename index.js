@@ -21,7 +21,7 @@ function nowServing(line) {
   return line[0]
   console.log(line[0])
   line.shift
-  if (i==0) {
+  if (0==0) {
     message = `There is nobody waiting to be served`
     console.log(message)
     return message
