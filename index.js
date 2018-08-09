@@ -18,10 +18,10 @@ takeANumber(katzDeliLine, "Kent");
 
 function nowServing(line) {
   var i = line.length;
-  return line[0]
+//  return line[0]
   console.log(line[0])
   line.shift
-  if (0==0) {
+  if (i==0) {
     message = `There is nobody waiting to be served`
     console.log(message)
     return message
