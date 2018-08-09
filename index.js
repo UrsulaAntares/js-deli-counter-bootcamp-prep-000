@@ -41,7 +41,7 @@ nowServing(katzDeliLine)
 
 function currentLine(line) {
   var i = line.length;
-  var counter = line.spread(`, ${i}. `);
+  var counter = line.toString(`, ${i}. `);
   if (i>0) {
   var wholeMessage = `The line is currently: 1. ${counter}.`
   return wholeMessage
