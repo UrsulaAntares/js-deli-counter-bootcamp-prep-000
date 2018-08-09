@@ -17,10 +17,11 @@ takeANumber(katzDeliLine, "Grace"); // "Welcome, Grace. You are number 2 in line
 takeANumber(katzDeliLine, "Kent");
 
 function nowServing(line) {
+  var i = line.length;
   return line[0]
   console.log(line[0])
   line.shift
-  if (line[null]) {
+  if (i==0) {
     message = `There is nobody waiting to be served`
     return message
   }
