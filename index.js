@@ -28,3 +28,5 @@ function nowServing(line) {
   }
 
 }
+
+nowServing(katzDeliLine)
