@@ -47,12 +47,12 @@ function currentLine(line) {
   var place
 
   var counter ="The line is currently: ";
-  for (place = 0; place < line.length ; place++) {
+  while (place = 0; place < line.length ; place++) {
     // var name =
     console.log(place)
-    // counter
+    counter += (place+1) + ". " + line[place];
     // console.log(counter)
-    return counter += (place+1) + ". " + line[place];
+    return counter
     }
     if (i==0) {
       console.log("The line is currently empty.")
