@@ -20,7 +20,7 @@ function nowServing(line) {
   var i = line.length;
   var firstPerson = line.shift();
   if (i==0) {
-    var message = `There is nobody waiting to be served`
+    var message = `There is nobody waiting to be served!`
     console.log(message)
     return message
   } else {
