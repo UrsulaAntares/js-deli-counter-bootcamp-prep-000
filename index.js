@@ -26,7 +26,8 @@ function nowServing(line) {
     console.log(message)
     return message
   }
-
+  console.log(line)
+  return line
 }
 
 
