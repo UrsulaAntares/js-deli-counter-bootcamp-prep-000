@@ -44,10 +44,11 @@ katzDeliLine = ["tom", "dick", "harry"]
 function currentLine(line) {
   var i = line.length;
   // var place = line.indexOf()
-  var name = line[place]
+
 
   var counter
   for ( place = 0; place < i ; place++) {
+    var name = line[place]
     counter = counter + place + ". " + name;
     console.log(counter + "This must be the place")
     return counter
